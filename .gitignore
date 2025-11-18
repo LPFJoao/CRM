@@ -1,0 +1,24 @@
+# Root ignores
+.DS_Store
+*.log
+*.env
+
+# Angular frontend
+crm-frontend/node_modules/
+crm-frontend/dist/
+crm-frontend/.angular/
+crm-frontend/.idea/
+crm-frontend/.vscode/
+
+# Node backend
+crm-api/node_modules/
+crm-api/logs/
+crm-api/*.log
+crm-api/.env
+
+# Optional editor settings
+.vscode/
+.idea/
+
+# OS junk
+Thumbs.db
